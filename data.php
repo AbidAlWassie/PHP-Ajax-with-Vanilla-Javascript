@@ -1,5 +1,12 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "classicmodels", "3307");
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "classicmodels";
+$port = "3307";
+
+$conn = mysqli_connect($host, $user, $password, $database, $port);
 $result = mysqli_query($conn, "SELECT * FROM employees");
 
 $data = array();

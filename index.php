@@ -49,6 +49,7 @@ window.onload = function () {
   body {
     color: white;
     background: black;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   * {

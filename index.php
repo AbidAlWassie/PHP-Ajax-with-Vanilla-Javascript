@@ -25,10 +25,10 @@ window.onload = function () {
       // console.log(data);
 
       var html = "";
-      for(var a = 0; a < data.length; a++) {
-        var firstName = data[a].firstName;
-        var lastName = data[a].lastName;
-        var jobTitle = data[a].jobTitle;
+      for(i = 0; i < data.length; i++) {
+        var firstName = data[i].firstName;
+        var lastName = data[i].lastName;
+        var jobTitle = data[i].jobTitle;
 
         html += "<tr>";
           html += "<td>" + firstName + "</td>";

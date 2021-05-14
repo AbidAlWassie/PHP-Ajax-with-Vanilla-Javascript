@@ -1,9 +1,12 @@
 <table>
+<thead>
     <tr>
       <th>First name</th>
       <th>Last name</th>
       <th>Job title</th>
     </tr>
+</thead>
+
 
     <tbody id="data"></tbody>
 </table>
@@ -46,13 +49,37 @@ window.onload = function () {
 </script>
 
 <style>
-  body {
-    color: white;
-    background: black;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+body {
+  color: white;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
 
-  * {
-    user-select: none;
-  }
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #222;}
+
+/* table tr:hover {background-color: #ddd;} */
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2054bd;
+  color: white;
+}
+
+* {
+  user-select: none;
+}
 </style>

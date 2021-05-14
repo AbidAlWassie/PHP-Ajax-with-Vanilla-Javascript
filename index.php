@@ -46,6 +46,11 @@ window.onload = function () {
 </script>
 
 <style>
+  body {
+    color: white;
+    background: black;
+  }
+
   * {
     user-select: none;
   }
